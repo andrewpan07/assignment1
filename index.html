@@ -7,23 +7,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   </head>
   <body>
-    <div id="start">
+    <div id="start" class="text-align-center">
       <h1>Spot the Differences</h1>
+      <button id="startButton">Start</button>
     </div>
 
     <div id="middle" class="text-align-center">
-      <h2 id="slideTitle"> </h2>
+      <h2 id="slideTitle"></h2>
       <div class="text-align-center">
         <img id="image1" src="./photos/photo0a.jpeg" />
         <img id="image2" src="./photos/photo0b.jpeg" />
       </div>
 
       <div>
-        <h2 id="timer">0</h2>
-        <button id="instructions">
-          Instructions
-        </button>
+        <button id="nextButton">Next Page</button>
       </div>
+      <div>
+        <button id="instructionsButton">Instructions</button>
+      </div>
+      <!-- <img id="circle" src="circle.png"/> -->
     </div>
 
     <div id="end">
